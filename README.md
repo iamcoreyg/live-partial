@@ -10,7 +10,14 @@ LivePartial allows you to create dynamic, real-time updating partial views in yo
 - Supports both JS-driven and backend updates
 - No complex configuration needed
 
+ ##  ⚠️ This is early, work in progress
+ Not production ready.
+
 ## Installation
+Prerequisites:
+- Rails 6+
+- ActionCable
+- Supports ESBuild or Webpacker
 
 1. Add to your Gemfile:
 ```ruby
