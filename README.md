@@ -10,6 +10,24 @@ LivePartial allows you to create dynamic, real-time updating partial views in yo
 - Supports both JS-driven and backend updates
 - No complex configuration needed
 
+## Installation
+
+1. Add to your Gemfile:
+```ruby
+gem 'live_partial'
+```
+
+2. Run bundle install:
+```bash
+bundle install
+```
+
+3. Run the installer:
+```bash
+rails generate live_partial:install
+```
+
+
 ## Basic Setup
 
 1. First, include LivePartial in your controller:
