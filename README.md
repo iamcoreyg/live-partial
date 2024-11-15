@@ -14,7 +14,7 @@ LivePartial allows you to create dynamic, real-time updating partial views in yo
 
 1. Add to your Gemfile:
 ```ruby
-gem 'live_partial'
+gem 'live_partial', github: 'iamcoreyg/live-partial'
 ```
 
 2. Run bundle install:
